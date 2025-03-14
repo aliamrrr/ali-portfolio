@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Anass - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Ali Anass Amradouch" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ali Anass Amradouch">Ali Anass Amradouch</h1>
+
+          <p class="title">MSc in Data Science and AI</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ali-anass.amradouch@imt-atlantique.net" class="contact-link">ali-anass.amradouch@imt-atlantique.net</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+3345431692" class="contact-link">+(33)45431692</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-02-14">February 14, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Brest, France</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am an AI Engineer and Data Scientist, soon to graduate from IMT Atlantique. Passionate about AI-driven innovation, I specialize in machine learning, computer vision, and data analytics.
+          </p>
+
+          <p>
+            I have worked with the Belgian Red Devils and Atos Group, developing deep learning models and optimizing AI systems. My goal is to leverage AI to assist teams and organizations, enhancing decision-making and performance through intelligent, data-driven solutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40"
+                style="filter: brightness(0) saturate(100%) invert(60%) sepia(70%) saturate(500%) hue-rotate(-5deg);">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Solutions</h4>
+
+                <p class="service-item-text">
+                  Cutting-edge and high-quality AI models tailored for real-world applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data.png" alt="Web development icon" width="40"
+                style="filter: brightness(0) saturate(100%) invert(60%) sepia(70%) saturate(500%) hue-rotate(-5deg);">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Advanced data analysis, data engineering, and business intelligence (BI) to drive impactful decisions for clients.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/technologie-ia.png" alt="mobile app icon" width="40"
+                style="filter: brightness(0) saturate(100%) invert(60%) sepia(70%) saturate(500%) hue-rotate(-5deg);"
+                >
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative AI</h4>
+
+                <p class="service-item-text">
+                  Custom AI models for automation and interactive AI experiences.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/vision-ia.png" alt="camera icon" width="40" 
+                style="filter: brightness(0) saturate(100%) invert(60%) sepia(70%) saturate(500%) hue-rotate(-5deg);">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI for Sports Analytics</h4>
+
+                <p class="service-item-text">
+                  Innovative AI-driven insights to enhance team performance and decision-making.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box" style="margin-top: 40px;">
+                  <img src="./assets/images/avatar-1.png" alt="Max Goldsmith" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" style="margin-top: -5px;" data-testimonials-title>Max Goldsmith</h4>
+                <p style="color: gray; font-size: 12px; margin-left: 95px; margin-top:-10px">Data Scientist - Royal Belgian Football Association</p>
+
+
+                <div class="testimonials-text" style="margin-top: 15px;" data-testimonials-text>
+                  <p>
+                    Ali Anass developed AI-driven tools at RBFA to enhance tracking data accessibility for analysts and coaches, including event detection from match footage and an LLM-based chatbot for data queries. His technical expertise, problem-solving skills, and curiosity for AI made him a valuable contributor.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box" style="margin-top: 40px;">
+                  <img src="./assets/images/avatar-4.png" alt="Saad Abidi" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" style="margin-top: 0px;" data-testimonials-title>Saad Abidi</h4>
+                <p style="color: gray; font-size: 12px; margin-left: 95px; margin-top:-10px">Data Scientist - Atos</p>
+
+
+                <div class="testimonials-text" style="margin-top: 35px;" data-testimonials-text>
+                  <p>
+                    I had the opportunity to supervise Ali Anass during his internship, and I particularly appreciated his commitment to his work. He is a motivated individual who integrated quickly into the team, demonstrated excellent organizational skills, and contributed significantly to the project as well as during meetings. Additionally, he has a solid understanding of AI and data science.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="download-container">
+            <a href="./assets/reference_max.pdf" download class="download-ref-btn">
+              <button class="btn-ref">
+                <ion-icon name="download-outline"></ion-icon>
+                <span>Download Reference Letter</span>
+              </button>
+            </a>
+          </div>
+          
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+      <!-- Clients -->
+      <section class="clients">
+
+        <h3 class="h3 clients-title">Companies</h3>
+
+        <ul class="clients-list has-scrollbar">
+
+          <li class="clients-item">
+            <a href="https://www.rbfa.be/fr" target="_blank">
+              <img src="./assets/images/rbfa.png" alt="RBFA logo" 
+                  style="border-radius: 10px; width: 160px; height: auto;">
+            </a>
+          </li>
+
+          <li class="clients-item">
+            <a href="https://atos.net/fr/" target="_blank">
+              <img src="./assets/images/atos.png" alt="Atos logo" 
+                  style="border-radius: 10px; width: 160px; height: auto;">
+            </a>
+          </li>
+
+          <li class="clients-item">
+            <a href="https://www.congresdesaudios.org" target="_blank">
+              <img src="./assets/images/audioo.png" alt="Congrès des Audioprothésistes logo" 
+                  style="border-radius: 10px; width: 170px; height: 160px;">
+            </a>
+          </li>
+
+          <li class="clients-item">
+            <a href="https://digitalescapade.com" target="_blank">
+              <img src="./assets/images/digital.png" alt="Digital Escapade logo" 
+                  style="border-radius: 10px; width: 160px; height: auto;">
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+      
+      </article>
+
+      <!-- #RESUME -->
+
+      <article class="resume" data-page="resume">
+        <h2 class="h2 article-title">Resume</h2>
+
+        <header style="display: flex; align-items: center; gap: 15px;">
+          <!-- Bouton de téléchargement AVANT le titre -->
+          <a href="./assets/resume.pdf" download class="download-btn">
+            <button class="btn">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Download Resume</span>
+            </button>
+          </a>
+          <br>
+        
+        </header>        
+
+        <!-- Education Section -->
+        <br><br>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">IMT Atlantique</h4>
+              <span>2022 — 2025</span>
+              <p class="timeline-text">
+                Engineering degree (Master's equivalent) specializing in Data Science and AI.  
+                Relevant courses: Advanced Machine Learning, Machine Learning for Graphs, Efficient Deep Learning, Data Visualization.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Universidad Carlos III Madrid</h4>
+              <span>Jan 2024 — June 2024</span>
+              <p class="timeline-text">
+                Erasmus+ program in Artificial Intelligence.  
+                Relevant courses: Artificial Intelligence, Graph Theory, Deep Learning, Predictive Modeling with R, Cloud Computing.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Experience Section -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI Research Scientist - Belgian Red Devils</h4>
+              <span>Dec 2024 — Mar 2025</span>
+              <p class="timeline-text">
+                Developed deep learning models for event detection and tactical visualizations.  
+                Created a RAG-based chatbot for interactive data exploration.  
+                Collaborated with analysts to integrate AI tools for performance analysis.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI Engineer - Atos Group</h4>
+              <span>June 2024 — Sept 2024</span>
+              <p class="timeline-text">
+                Developed a real-time vehicle flow detection system for Bordeaux Métropole.  
+                Optimized deep learning models for Jetson Nano, achieving 14x faster detection.  
+                Worked with Docker, Grafana, and cloud computing tools.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Scientist - Digital Escapade</h4>
+              <span>Sept 2023 — Jan 2024</span>
+              <p class="timeline-text">
+                Applied machine learning to enhance escape games and user experience.  
+                Built interactive dashboards and processed data for improved game insights.  
+                Used Python, SQL, Flask, and Vue.js in development.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Distinctions & Interests -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Distinctions & Interests</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Distinctions</h4>
+              <p class="timeline-text">
+                Outstanding Award - Huawei Munich Tech Arena: AI-based Individual Head-Related Transfer Function Generation. 
+                <br>
+                Airbus Digital Challenge Winner - Proposed an NLP solution to handle informal data.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Current Work</h4>
+              <p class="timeline-text">
+                Participating in the FIFA Skeletal Tracking ‘Light’ Challenge.  
+                <br>
+                Exploring AI applications in performance analysis and tactical decision-making.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Interests</h4>
+              <p class="timeline-text">
+                Team Sports - Passionate about football, member of my school’s sports committee, and active player.  
+                <br>
+                AI Research & Innovation - Always seeking new challenges in AI, machine learning, and data-driven solutions.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!-- #PORTFOLIO -->
+      <!-- #PORTFOLIO -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+
+      </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item="all">All</button></li>
+              <li class="select-item"><button data-select-item="ai-ml">AI & Machine Learning</button></li>
+              <li class="select-item"><button data-select-item="data-science">Data Science</button></li>
+              <li class="select-item"><button data-select-item="computer-vision">Computer Vision</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+
+            <!-- Projet 1: Football-AI Chatbot -->
+            <li class="project-item active" data-filter-item data-category="all ai-ml data-science">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/balgique.jfif" alt="football-ai-chatbot" loading="lazy">
+                </figure>
+                <h3 class="project-title">Football-AI Chatbot</h3>
+                <p class="project-category">AI & Machine Learning, Data Science</p>
+              </a>
+            </li>
+
+            <!-- Projet 2: Football Vision -->
+            <li class="project-item active" data-filter-item data-category="all computer-vision ai-ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/vision.jpg" alt="football-vision" loading="lazy">
+                </figure>
+                <h3 class="project-title">Football Vision</h3>
+                <p class="project-category">Computer Vision, AI & Machine Learning</p>
+              </a>
+            </li>
+
+            <!-- Projet 3: Escape Game Data Analytics -->
+            <li class="project-item active" data-filter-item data-category="all data-science">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/escape.jfif" alt="escape-game-data" loading="lazy">
+                </figure>
+                <h3 class="project-title">Escape Game Data Analytics</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+
+            <!-- Projet 4: Anomaly Detection in Audioprothesis Data -->
+            <li class="project-item active" data-filter-item data-category="all data-science ai-ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/audiopro.jfif" alt="anomaly-detection" loading="lazy">
+                </figure>
+                <h3 class="project-title">Anomaly Detection in Audioprothesis Data</h3>
+                <p class="project-category">Data Science, AI & Machine Learning</p>
+              </a>
+            </li>
+
+            <!-- Projet 5: Racial Discrimination in Home Mortgage -->
+            <li class="project-item active" data-filter-item data-category="all data-science ai-ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/raciald.png" alt="racial-discrimination" loading="lazy">
+                </figure>
+                <h3 class="project-title">Racial Discrimination in Home Mortgage</h3>
+                <p class="project-category">Data Science, AI & Machine Learning</p>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+<!-- #CONTACT -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- Section de la carte Google Maps (Brest, France) -->
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13479.38505353205!2d-4.503813046602121!3d48.39039482565178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4816bb1fbe75bce1%3A0x40ca5cd36e9b520!2sBrest%2C%20France!5e0!3m2!1sen!2sfr!4v1710536223456"
+              width="400" height="300" loading="lazy">
+            </iframe>
+          </figure>
+        </section>
+
+        <!-- Section Formulaire de Contact -->
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <!-- Formulaire connecté à ton email via Formspree -->
+          <form action="https://formspree.io/f/mvgkoejv" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+        </section>
+
+      </article>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
