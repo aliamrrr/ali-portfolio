@@ -350,6 +350,7 @@ main {
   display: block;
   text-align: center;
   margin-top: -5px;
+  margin-left: 300px;
   text-decoration: none;
 }
 
@@ -1490,7 +1491,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
   
     .testimonials-item-title {
-      margin-top: 5px !important;
+      margin-left: 20px !important; /* Décale le nom vers la droite */
+      text-align: left !important; /* Alignement correct */
     }
   
     .testimonials-text {
@@ -1500,20 +1502,16 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
   
     .testimonials-avatar-box img {
-      width: 50px !important;  /* Réduit la taille de l'avatar pour mobile */
-    }
-  
-    .testimonials-item-title {
-      font-size: 16px !important; /* Rendre le nom plus lisible */
+      width: 50px !important; /* Réduit la taille de l'avatar */
     }
   
     .testimonials-item p {
       font-size: 12px !important;
-      margin-left: 0 !important; /* Centrer les titres sous l'image */
+      margin-left: 20px !important; /* Décale le texte sous le nom */
       margin-top: 5px !important;
     }
   }
-  
+
   .testimonials-avatar-box {
     transform: translate(30px, -30px);
     border-radius: 20px;
