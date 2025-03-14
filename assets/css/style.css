@@ -349,8 +349,7 @@ main {
 .download-ref-btn {
   display: block;
   text-align: center;
-  margin-top: -5px;
-  margin-left: 300px;
+  margin-top: 15px;
   text-decoration: none;
 }
 
@@ -647,9 +646,12 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
+  margin-bottom: 15px
 }
 
-.testimonials-item-title { margin-bottom: 7px; }
+.testimonials-item-title { margin-bottom: 15px; 
+  text-align: center;
+}
 
 .testimonials-text {
   color: var(--light-gray);
@@ -661,6 +663,7 @@ main {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-align: center;
 }
 
 
@@ -1490,7 +1493,6 @@ textarea.form-input::-webkit-resizer { display: none; }
       display: block;
       text-align: center;
       margin-top: 20px;
-      margin-left: 90px;
       text-decoration: none;
     }
   
@@ -1499,8 +1501,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
   
     .testimonials-item-title {
-      margin-left: 60px !important; /* Décale le nom vers la droite */
-      text-align: left !important; /* Alignement correct */
+      margin-left: 0px !important; /* Décale le nom vers la droite */
+      text-align: center !important; /* Alignement correct */
     }
   
     .testimonials-text {
