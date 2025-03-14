@@ -350,6 +350,7 @@ main {
   display: block;
   text-align: center;
   margin-top: -5px;
+  margin-left: 300px;
   text-decoration: none;
 }
 
@@ -1484,13 +1485,21 @@ textarea.form-input::-webkit-resizer { display: none; }
       align-items: center;
       text-align: center;
     }
+
+    .download-ref-btn {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 90px;
+      text-decoration: none;
+    }
   
     .testimonials-avatar-box {
-      margin-top: 20px !important;
+      margin-top: 50px !important;
     }
   
     .testimonials-item-title {
-      margin-left: 20px !important; /* Décale le nom vers la droite */
+      margin-left: 60px !important; /* Décale le nom vers la droite */
       text-align: left !important; /* Alignement correct */
     }
   
