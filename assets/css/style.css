@@ -1478,6 +1478,43 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding-top: 25px;
   }
 
+  @media screen and (max-width: 768px) {
+    .testimonials-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .testimonials-avatar-box {
+      margin-top: 20px !important;
+    }
+  
+    .testimonials-item-title {
+      margin-top: 5px !important;
+    }
+  
+    .testimonials-text {
+      margin-top: 10px !important;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .testimonials-avatar-box img {
+      width: 50px !important;  /* Réduit la taille de l'avatar pour mobile */
+    }
+  
+    .testimonials-item-title {
+      font-size: 16px !important; /* Rendre le nom plus lisible */
+    }
+  
+    .testimonials-item p {
+      font-size: 12px !important;
+      margin-left: 0 !important; /* Centrer les titres sous l'image */
+      margin-top: 5px !important;
+    }
+  }
+  
   .testimonials-avatar-box {
     transform: translate(30px, -30px);
     border-radius: 20px;
